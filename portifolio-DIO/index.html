@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>João Silva | Full Stack Developer</title>
+  <meta name="description" content="Portfólio de João Silva - Desenvolvedor Full Stack, DBA e especialista em segurança da informação.">
+  <meta name="author" content="João Silva">
+  <meta property="og:title" content="João Silva | Desenvolvedor Full Stack">
+  <meta property="og:description" content="Veja meus projetos, habilidades e experiência.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://i.pravatar.cc/300?img=12">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="./assets/css/estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="logo">João Silva</div>
+    <i class="fa-solid fa-circle-half-stroke theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema claro/escuro"></i>
+    <div class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <img src="https://i.pravatar.cc/150?img=12" alt="Foto de João Silva" class="profile-img">
+    <h1>João Silva</h1>
+    <p><i class="fa-solid fa-terminal"></i> Full Stack | DBA | Infraestrutura | Segurança da Informação</p>
+    <a href="CV-JoaoSilva.pdf" class="btn-cv" download><i class="fa-solid fa-file-arrow-down"></i> Baixar Currículo</a>
+  </header>
+
+  <section class="formacao" id="formacao" data-aos="fade-up">
+    <h2><i class="fa-solid fa-user-graduate"></i> Formação Acadêmica</h2>
+    <div class="formacao-item">
+      <h3>Bacharelado em Ciência da Computação</h3>
+      <p>Universidade Federal de Tecnologia • 2018 - 2022</p>
+    </div>
+    <div class="formacao-item">
+      <h3>Pós-graduação em Segurança da Informação</h3>
+      <p>Faculdade de Tecnologia XYZ • 2023 - 2024</p>
+    </div>
+    <div class="formacao-item">
+      <h3>Curso Full Stack Web Developer</h3>
+      <p>DIO & OpenBootcamp • 2023</p>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2><i class="fa-solid fa-code"></i> Skills Técnicas</h2>
+    <ul class="skills">
+      <li><i class="fa-brands fa-java"></i> Java, Spring Boot, Spring Security, React, Thymeleaf</li>
+      <li><i class="fa-solid fa-database"></i> PostgreSQL, MySQL, MongoDB, Redis</li>
+      <li><i class="fa-brands fa-docker"></i> Docker, Kubernetes, CI/CD</li>
+      <li><i class="fa-solid fa-cloud"></i> AWS, Azure, Linux</li>
+      <li><i class="fa-solid fa-shield-halved"></i> Segurança: OWASP, Hardening, TLS</li>
+    </ul>
+  </section>
+
+  <section id="projetos" data-aos="fade-up">
+    <h2><i class="fa-solid fa-folder-open"></i> Projetos</h2>
+    <div class="projects">
+      <div class="project" data-aos="zoom-in">
+        <img src="https://source.unsplash.com/400x200/?code" alt="Projeto E-Commerce">
+        <h3>Plataforma Segura de E-Commerce</h3>
+        <p>Autenticação com JWT, criptografia e logs auditáveis.</p>
+      </div>
+      <div class="project" data-aos="zoom-in">
+        <img src="https://source.unsplash.com/400x200/?cloud,devops" alt="Projeto Infraestrutura">
+        <h3>Infraestrutura com Docker + AWS</h3>
+        <p>Ambiente escalável com CI/CD automatizado e pipelines.</p>
+      </div>
+      <div class="project" data-aos="zoom-in">
+        <img src="https://source.unsplash.com/400x200/?cybersecurity,hack" alt="Projeto Segurança">
+        <h3>Scanner de Vulnerabilidades</h3>
+        <p>Detecta falhas como XSS, SQLi, CSRF com base no OWASP Top 10.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hobbies" id="hobbies" data-aos="fade-up">
+    <h2><i class="fa-solid fa-heart"></i> Hobbies</h2>
+    <ul class="hobbies-list">
+      <li><i class="fa-solid fa-headphones"></i> Ouvir música</li>
+      <li><i class="fa-solid fa-gamepad"></i> Jogar videogame</li>
+      <li><i class="fa-solid fa-book-open-reader"></i> Ler sobre tecnologia e ficção científica</li>
+      <li><i class="fa-solid fa-mountain-sun"></i> Fazer trilhas e acampar</li>
+      <li><i class="fa-solid fa-camera"></i> Fotografia</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contato" data-aos="fade-up">
+    <h2><i class="fa-solid fa-envelope"></i> Contato</h2>
+    <p><i class="fa-solid fa-envelope"></i> joao.dev@example.com</p>
+    <p><i class="fa-brands fa-github"></i> github.com/joaodev</p>
+    <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/joaodev</p>
+
+    <form class="contact-form" action="https://formspree.io/f/moqzvlqy" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required />
+      <input type="email" name="_replyto" placeholder="Seu email" required />
+      <textarea name="message" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 João Silva — Desenvolvedor Full Stack & Especialista em Segurança
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="./assets/js/animacoes.js"></script>
+</body>
+</html>
